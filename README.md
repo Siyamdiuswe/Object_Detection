@@ -25,7 +25,9 @@ Then you'll notice darknet.exe on C:\darknet-master\build\darknet\x64 file
 cd
 cd
 cd C:\darknet-master\build\darknet\x64
+
 .............................................................................
+
 ###For Images from data directory
 darknet.exe detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 darknet.exe detect cfg/yolov3.cfg yolov3.weights data/eagle.jpg
@@ -34,32 +36,44 @@ darknet.exe detect cfg/yolov3.cfg yolov3.weights data/person.jpg
 darknet.exe detect cfg/yolov3.cfg yolov3.weights data/scream.jpg
 darknet.exe detect cfg/yolov3.cfg yolov3.weights data/giraffe.jpg
 darknet.exe detect cfg/yolov3.cfg yolov3.weights E:/test.jpg
+
 .............................................................................
+
 Multiple Images:
 darknet.exe detect cfg/yolov3.cfg yolov3.weights
 E:/test.jpg
 data/dog.jpg
 data/person.jpg
 ***Ctrl-C to exit the program once you are done
+
 .............................................................................
+
 Changing The Detection Threshold:
 Doesn't work with multiple images
 
 darknet.exe detect cfg/yolov3.cfg yolov3.weights E:/test.jpg -thresh 0
+
 .............................................................................
+
 Tiny YOLOv3:
 
 darknet.exe detect cfg/yolov3-tiny.cfg yolov3-tiny.weights data/dog.jpg
+
 .............................................................................
+
 YOLOv4:
 darknet.exe detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights data/dog.jpg
+
 .............................................................................
+
 Real-Time Detection on a Webcam:
 
 darknet.exe detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
 darknet.exe detector demo cfg/coco.data cfg/yolov3-tiny.cfg yolov3-tiny.weights
 darknet.exe detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights
+
 .............................................................................
+
  video file:
 cd
 cd
