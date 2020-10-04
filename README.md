@@ -2,9 +2,9 @@
 ---
 
 
-Followed this site: https://gitee.com/suiyifan/darknet#how-to-compile-on-windows-legacy-way
+** Followed this site: https://gitee.com/suiyifan/darknet#how-to-compile-on-windows-legacy-way
 
-or: https://www.youtube.com/watch?v=DjO9UtSON6U&t=448s&ab_channel=ZODtheTechGOD
+or: https://www.youtube.com/watch?v=DjO9UtSON6U&t=448s&ab_channel=ZODtheTechGOD **
 
 *How to compile on Windows (legacy way):
 Installation part:
