@@ -1,4 +1,4 @@
-# H1 YOLO: Real-Time Object Detection on windows 10
+# YOLO: Real-Time Object Detection on windows 10
 ---
 
 
